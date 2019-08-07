@@ -1,0 +1,61 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '8.0'
+# Uncomment this line if you're using Swift
+
+use_frameworks!
+
+# ignore all warnings from all pods
+inhibit_all_warnings!
+
+target 'Onboarding' do
+
+pod 'Alamofire'
+pod 'SwiftyJSON'
+pod 'KVNProgress'
+pod 'Firebase/Auth'
+pod 'Firebase/Core'
+pod 'Firebase/Messaging'
+pod 'SlideMenuControllerSwift'
+pod 'Windless', '~> 0.1.5'
+pod 'SwiftTheme'
+pod 'IQKeyboardManagerSwift'
+pod 'PhoneNumberKit', '~> 2.1'
+pod 'SRCountdownTimer'
+pod 'Spring', :git => 'https://github.com/MengTo/Spring.git'
+pod 'ShadowImageView'
+pod 'ESTabBarController-swift'
+pod 'NotificationBannerSwift'
+pod 'RealmSwift'
+pod 'Socket.IO-Client-Swift', '~> 13.2.1'
+pod 'Starscream', '<= 3.0.5'
+pod 'AWSCore' 
+pod 'AWSS3'
+pod 'MICountryPicker', :git => 'https://github.com/mustafaibrahim989/MICountryPicker.git', :branch => 'master'
+pod 'BubbleTransition', '~> 3.0.0'
+pod 'FSCalendar'
+pod 'Pastel'
+pod 'GooglePlaces'
+pod 'GooglePlacePicker'
+pod 'GoogleMaps'
+pod 'MXParallaxHeader'
+pod 'ViewAnimator'
+pod 'MXSegmentedPager'
+pod 'SkeletonView'
+pod 'AZDialogView'
+pod 'DZNEmptyDataSet'
+pod 'GrowingTextView', '~> 0.5'
+pod 'SwiftyGiphy', '~> 1.0'
+pod 'FaveButton', :git => 'https://github.com/martihag/fave-button.git', :commit => '49dcd7a5b29491ae9ad1a0584621a5f643f44c17'
+pod 'SnapSDK'
+pod 'SDWebImage/GIF'
+pod 'CellAnimator'
+pod 'lottie-ios'
+pod 'GSImageViewerController'
+pod 'SwiftLinkPreview', '~> 2.3.1'
+pod 'TTTAttributedLabel'
+pod 'Letters'
+pod 'SwiftWebVC'
+pod 'SloppySwiper'
+pod 'Fabric'
+pod 'Crashlytics'
+end
